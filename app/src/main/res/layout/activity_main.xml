@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:layout_centerInParent="true"
+        android:textAllCaps="false"
         android:height="170dp"
         android:width="340dp"
         android:background="@color/green"
