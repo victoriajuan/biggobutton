@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ButtonCounter++;
-                GiantButton.setText("You have pushed me "+ButtonCounter+" times");
+                GiantButton.setText("You have pushed me "+ButtonCounter+" times!");
             }
         });
     }
