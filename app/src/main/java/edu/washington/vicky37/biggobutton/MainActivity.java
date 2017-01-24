@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void ButtonActivity(){
         final Button GiantButton = (Button) findViewById(R.id.button);
         GiantButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 ButtonCounter++;
